@@ -1,0 +1,13 @@
+package CNTT61.CLC;
+import java.awt.*;
+public class Test {
+
+	public static void main(String[] args) {
+		//
+		Frame mainFrame = new Frame("Main Frame");//tạo được đối tượng trong bộ nhớ
+		mainFrame.setBounds(0,0,100,200);
+		mainFrame.setVisible(true);
+
+	}
+
+}

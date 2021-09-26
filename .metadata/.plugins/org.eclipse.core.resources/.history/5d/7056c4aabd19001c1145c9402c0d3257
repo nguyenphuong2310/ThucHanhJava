@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class PIT {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner b_phim = new Scanner(System.in);
+	}
+
+}

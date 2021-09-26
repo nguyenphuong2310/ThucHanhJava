@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PIT {
+
+	public static void main(String[] args) {
+		int tNhap;
+		
+		Scanner b_phim = new Scanner(System.in);
+		try {
+			tNhap = b_phim.nextInt();
+		}
+		catch(Exception ex){
+			System.out.print("Nhập sai kiểu dữ liệu!");
+		}
+		
+		if(tNhap < 9000000)
+			System.out.print("Không đóng thuế!");
+		else if(tNhap < 15000000)
+			System.out.printf("Thuế thu nhập là: %d",tNhap);
+	}
+
+}
